@@ -1,0 +1,306 @@
+﻿BODY {
+    font-family: Cambria, Georgia, "Times New Roman";
+    margin: 0;
+}
+
+.wrapper::after {
+    content: " ";
+    display: block;
+    clear: both;
+}
+
+DIV#header DIV.title, DIV.item H3, DIV.item H4, DIV.pager A {
+    font: bold 1em "Arial Narrow", "Franklin Gothic Medium", Arial;
+}
+
+DIV#header, .ui-dialog .ui-dialog-titlebar {
+    background-color: #444;
+    border-bottom: 1px solid #111;
+    color: White;
+}
+DIV#header DIV.title {
+    font-size: 2em;
+    padding: .5em;
+    color: gold;
+}
+
+DIV#header div.header-right {
+    float: right;
+    margin: 1em;
+}
+
+div.header-right ul {
+    margin: 0;
+    padding: .7em 0 .3em 0;
+    display: inline-block;
+}
+
+div.header-right li {
+    display: inline-block;
+    padding-left: 1em;
+    border-left: 1px solid gold;
+    line-height: 1em;
+    margin-left: 1em;
+}
+
+div.header-right li:first-child {
+    border-left: none;
+    padding-left: 0;
+}
+
+.login {
+    padding: .7em 0 .3em 0;
+    display: inline-block;
+    margin: 0 1.5em;
+}
+
+div.header-right a, a.login{
+    color: gold;
+    cursor: pointer;
+}
+
+div.header-right a:hover, a.login:hover {
+    color: goldenrod;
+    text-decoration-line: none;
+}
+
+a.login:focus {
+    color: gold;
+    text-decoration-line: none;
+}
+
+.basket-wrap {
+    position: relative;
+    padding: 1em;
+    display: inline-block;
+    float: right;
+    cursor: pointer;
+    background-color: gold;
+}
+
+.basket-wrap:hover {
+    background-color: goldenrod;
+    /*background: url(../images/basket_white.png) no-repeat;*/
+    background-size: contain;
+    background-origin: content-box;
+}
+
+.basket-wrap .basket {
+    height: 2em;
+    width: 2.5em;
+    background: url(../images/basket_black1_64.png) no-repeat;
+    background-size: contain;
+    background-origin: content-box;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.basket-wrap .basket-label{
+    display: inline-block;
+    line-height: 1em;
+    vertical-align: text-bottom;
+    padding-bottom: .3em;
+    color: #444;
+    font-weight: bold;
+}
+
+.basket-wrap .total-items {
+    background: red;
+    border-radius: 0.8em;
+    -moz-border-radius: 0.8em;
+    -webkit-border-radius: 0.8em;
+    color: #ffffff;
+    display: inline-block;
+    line-height: 1.5em;
+    text-align: center;
+    width: 1.5em;
+    position: absolute;
+    left: 2.5em;
+    top: .5em;
+}
+
+.validateTips {
+    border: 1px solid transparent;
+    padding: 0.3em;
+}
+
+DIV#content {
+    border-left: 1px solid #e5e5e5;
+    margin-left: 9em;
+    background-color: white;
+}
+
+DIV#content .wrapper{
+    position: relative;
+}
+
+DIV#menu {
+    float: left;
+    width: 9em;
+    padding: .3em;
+}
+
+DIV.item {
+    border-right: 1px solid #e5e5e5;
+    border-bottom: 1px solid #e5e5e5;
+    /*padding: .2rem;*/
+    /*margin-bottom: .7em;*/
+    float: left;
+    width: 33.333333%;
+}
+
+DIV.item H3 {
+    font-size: 1.3em;
+    margin: 0 0 .25em 0;
+}
+
+DIV.item H4 {
+    font-size: 1.1em;
+    margin: .4em 0 0 0;
+}
+
+DIV#menu A {
+    font: bold 1.1em "Arial Narrow","Franklin Gothic Medium",Arial;
+    display: block;
+    text-decoration: none;
+    padding: .6em;
+    color: Black;
+    border-bottom: 1px solid #444;
+}
+
+DIV#menu A.selected {
+    background-color: #444;
+    color: gold;
+}
+
+DIV#menu A:hover {
+    background-color: goldenrod;
+}
+
+DIV#menu A.selected:hover {
+    background-color: #666;
+}
+
+DIV.pager {
+    text-align: right;
+    border-top: 2px solid silver;
+    padding: .5em 0 0 0;
+    margin-top: 1em;
+}
+
+DIV.pager A {
+    font-size: 1.1em;
+    color: #111;
+    text-decoration: none;
+    padding: 0 .4em 0 .4em;
+}
+
+DIV.pager A:hover {
+    background-color: #CCC;
+}
+
+DIV.pager A.selected {
+    background-color: #444;
+    color: white;
+}
+
+FORM {
+    margin: 0;
+    padding: 0;
+}
+
+DIV.item FORM {
+    float: right;
+}
+
+DIV.item INPUT {
+    color: white;
+    background-color: #333;
+    border: 1px solid black;
+    cursor: pointer;
+}
+
+DIV.item INPUT:hover{
+    color: gold;
+}
+
+H2 {
+    margin-top: 0.3em
+}
+
+TFOOT TD {
+    border-top: 1px dotted gray;
+    font-weight: bold;
+}
+
+.actionButtons A, INPUT.actionButtons, .actionButtons INPUT {
+    font: .8em Arial;
+    color: White;
+    margin: .5em;
+    text-decoration: none;
+    padding: .15em 1.5em .2em 1.5em;
+    background-color: #353535;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+label, input {
+    display:block;
+}
+input.text {
+    margin-bottom: 1.2em;
+    width:100%;
+    padding: .4em;
+}
+fieldset {
+    padding:0;
+    border:0;
+    margin-top:2em;
+}
+
+.ui-dialog .ui-dialog-buttonpane input {
+    float: right;
+    font: 12px/12px Arial, sans-serif;
+    text-transform: uppercase;
+    padding: 10px 20px 8px;
+}
+
+.ui-dialog .ui-dialog-buttonpane {
+    padding: 0;
+}
+
+.ui-widget-overlay {
+    background: black;
+    opacity: .75;
+}
+
+.cart-amount-input-text {
+    font-size: 1.75em;
+    width: 2em;
+    border: none;
+    outline: none;
+    text-align: center;
+    display: inline-block;
+    line-height: 1.5em;
+}
+
+.cart-amount-qnt-btn {
+    border: none;
+    background-color: transparent;
+    display: inline-block;
+    padding: 0;
+    line-height: 1.75em;
+    vertical-align: bottom;
+}
+
+.cart-amount-qnt-btn span {
+    font-size: 1.5em;
+    color: #444;
+    height: 1em;
+    vertical-align: bottom;
+}
+
+DIV#checkout {
+    padding-left: 2em;
+    float: left;
+}

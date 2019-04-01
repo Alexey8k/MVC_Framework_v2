@@ -1,0 +1,8 @@
+AuthType Basic
+AuthName "Admin tool"
+AuthUserFile "/OSPanel/domains/bookcatalog.com/admintool/.htpasswd"
+Require user admin
+
+RewriteEngine On
+
+RewriteRule ^ ../index.php [L]

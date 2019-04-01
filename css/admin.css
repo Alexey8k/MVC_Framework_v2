@@ -1,0 +1,124 @@
+﻿BODY, TD {
+    font-family: Segoe UI, Verdana
+}
+
+DIV#header DIV.title {
+    background-color: #444;
+    border-bottom: 2px solid #111;
+    color: White;
+    font: bold 1em "Arial Narrow", "Franklin Gothic Medium", Arial;
+}
+
+DIV#header div.header-right {
+    float: right;
+    margin: 1em;
+}
+
+.login {
+    padding: .7em 0 .3em 0;
+    display: inline-block;
+    margin: 0 1.5em;
+}
+
+a.login{
+    color: white;
+    cursor: pointer;
+}
+
+a.login:hover {
+    color: grey;
+    text-decoration-line: none;
+}
+
+a.login:focus {
+    color: white;
+    text-decoration-line: none;
+}
+
+DIV#header DIV.title {
+    font-size: 2em;
+    padding: .5em;
+    color: gold;
+}
+
+H1 {
+    padding: .5em;
+    padding-top: 0;
+    font-weight: bold;
+    font-size: 1.5em;
+    border-bottom: 2px solid gray;
+}
+
+DIV#content {
+    padding: .9em;
+}
+
+TABLE.Grid TD, TABLE.Grid TH {
+    border-bottom: 1px dotted gray;
+    text-align: left;
+}
+
+TABLE.Grid {
+    border-collapse: collapse;
+    width: 100%;
+}
+
+    TABLE.Grid TH.NumericCol, Table.Grid TD.NumericCol {
+        text-align: right;
+        padding-right: 1em;
+    }
+
+FORM {
+    margin-bottom: 0px;
+}
+
+DIV.Message {
+    background: gray;
+    color: White;
+    padding: .2em;
+    margin-top: .25em;
+}
+
+.field-validation-error {
+    color: red;
+    display: block;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+.input-validation-error {
+    border: 1px solid red;
+    background-color: #ffeeee;
+}
+
+.validation-summary-errors {
+    font-weight: bold;
+    color: red;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+
+.editor-field {
+    margin-bottom: .8em;
+}
+
+.editor-label {
+    font-weight: bold;
+}
+
+    .editor-label:after {
+        content: ":"
+    }
+
+.text-box {
+    width: 25em;
+}
+
+.multi-line {
+    height: 5em;
+    font-family: Segoe UI, Verdana;
+}
